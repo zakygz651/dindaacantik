@@ -1,7 +1,7 @@
 const Utils = require("./util");
 const pth = require("path");
 const ZipEntry = require("./zipEntry");
-const ZipFile = require("./zipFile");
+const ZipFile = require("./vvzipFile");
 
 const get_Bool = (...val) => Utils.findLast(val, (c) => typeof c === "boolean");
 const get_Str = (...val) => Utils.findLast(val, (c) => typeof c === "string");
